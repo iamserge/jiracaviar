@@ -1,0 +1,16 @@
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > li > a.active:focus,
+.navbar-default .navbar-nav > li > a.active:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar .navbar-brand {
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .container .navbar-nav>li>a {
+        padding-top: 20px;
+    }
+}
